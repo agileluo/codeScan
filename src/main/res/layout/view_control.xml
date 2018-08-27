@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.bingoogolapple.flowlayout.BGAFlowLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/MatchWrap"
+    android:layout_alignParentBottom="true"
+    android:padding="4dp"
+    app:fl_horizontalChildGap="4dp"
+    app:fl_isDistributionWhiteSpacing="true"
+    app:fl_verticalChildGap="4dp">
+
+    <TextView
+        android:id="@+id/open_flashlight"
+        style="@style/WrapWrapTv"
+        android:text="打开闪光灯" />
+
+    <TextView
+        android:id="@+id/close_flashlight"
+        style="@style/WrapWrapTv"
+        android:text="关闭闪光灯" />
+</cn.bingoogolapple.flowlayout.BGAFlowLayout>

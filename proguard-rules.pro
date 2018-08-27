@@ -1,0 +1,1 @@
+-dontwarn org.w3c.dom.bootstrap.DOMImplementationRegistry
