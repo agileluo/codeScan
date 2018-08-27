@@ -70,7 +70,7 @@ public class TestScanActivity extends AppCompatActivity implements QRCodeView.De
         setTitle("扫描成功");
         vibrate();
 
-        mZBarView.startSpot(); // 延迟0.5秒后开始识别
+        mZBarView.startSpotDelay(2000); // 延迟0.5秒后开始识别
     }
 
     @Override
